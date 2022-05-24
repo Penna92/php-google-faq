@@ -1,0 +1,38 @@
+header {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid lightgray;
+    color: #5F6371;
+}
+
+#logo {
+    height: 70px;
+    line-height: 70px;
+    margin-left: 20px;
+}
+
+#logo img {
+    height: 100%;
+}
+
+nav {
+    height: 30%;
+    line-height: 30px;
+}
+
+ul {
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    border-bottom: 3px solid blue;
+}
