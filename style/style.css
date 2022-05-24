@@ -1,3 +1,13 @@
+body {
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;
+    color: rgba(0, 0, 0, .87);
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.54;
+}
+
 header {
     height: 100px;
     position: fixed;
@@ -14,6 +24,7 @@ header {
     height: 60px;
     line-height: 60px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 #logo img {
@@ -36,15 +47,25 @@ header li {
 }
 
 header nav ul li:hover {
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #3367D6;
 }
 
 main {
     margin-top: 120px;
+
+}
+
+main ol li {
+    margin: 30px auto;
+}
+
+main a {
+    text-decoration: none;
 }
 
 main h3 {
     margin-top: 50px;
+    color: #3C4043;
 }
 
 footer {
